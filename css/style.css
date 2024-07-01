@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background: #ECEFF1;
+}
+
+#countainer {
+    height: 100%;
+    padding-top: 100px;
+}
+
+#section_start {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#titr {
+    font-size: 50px;
+    color: #0091EA;
+    text-shadow: 0 1px 20px #81D4FA;
+    margin-bottom: 10px;
+
+
+}
+#input {
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px #bce3f5;
+    border: 2px solid #fff;
+    padding: 3px 10px;
+    caret-color: #cdd3d6;
+    color: #0091EA;
+    font-weight: 300;
+    transition: all 0.5s;
+    width: 250px;
+}
+
+#section_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#input::placeholder {
+    color: #989b9d;
+}
+
+#input::selection {
+    background: #0091EA;
+    color: #fff;
+}
+
+#input:focus {
+    box-shadow: 0 1px 10px #74cef8;
+    
+}
+
+.input_btn{
+    width: 30px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 10px #bce3f5;
+    color: #989b9d;
+    transition: all 0.5s;
+    border: 2px solid #fff;
+}
+
+.input_btn:hover {
+    box-shadow: 0 1px 10px #74cef8;
+    color: #0091EA;
+}
+
+
+#add_btn{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+#colors {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+.color {
+    box-shadow: 0 1px 10px #bce3f5;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+.section_boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 0 100px;
+}
+.box {
+    box-shadow: 0 1px 10px #bce3f5;
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+    min-height: 150px;
+    text-align: start;
+    padding: 10px 15px;
+    font-size: 15px;
+    background: #fff;
+    cursor: pointer;
+    color: #0091EA;
+    position: relative;
+    border: 2px solid #fff;
+    word-wrap: break-word;
+}
